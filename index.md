@@ -15,7 +15,9 @@ Conversations on decolonizing technology.
 
 <div id="blurb">
 
-What would it mean to decolonize the internet? Water? Food? Energy?  What alternatives might we consider? <b>Convivial</b> is a series of investigations that explore the idea of <b>decolonizing technology</b> in conversation with people and organizations working to make vital infrastructure more democratic, participatory, autonomous, and cooperative.  
+What would it mean to decolonize all aspects of our vital infrastructure today, or in the future?  Water? Food? Energy? Communications?  What alternatives are there to the status quo that might be built soon -- or are being built already -- or could be recovered from the past? 
+
+<b>Convivial</b> is a series of investigations and conversations focused on the idea of <b>decolonizing technology</b> in an array of contexts; on the project of avoiding exploitation, regaining control and autonomy, and supporting more democratic, collaborative, cooperative approaches to infrastructure upon which all of us rely.
 
 </div>
 
