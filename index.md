@@ -70,7 +70,7 @@ What would it mean to decolonize the internet? Water? Food? Energy?  What altern
 
 <div id="blurb">
 
-**Real-world 'In-Situ' experiments** --
+**'In Situ' experiments** --
 
 </div>
 
