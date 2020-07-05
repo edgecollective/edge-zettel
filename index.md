@@ -21,9 +21,11 @@ What would it mean to decolonize the internet? Water? Food? Energy?  What altern
 
 ---
 
+# Provocoations
+
 <div id="blurb">
 
-**Guiding Questions** These are some baseline queries and provocations that might be useful starting points in various conversations about decolonizing technology. 
+Some baseline queries and provocations to present to interlocutors that might serve as useful starting points in various conversations about decolonizing technology. 
 
 </div>
 
@@ -44,10 +46,11 @@ What would it mean to decolonize the internet? Water? Food? Energy?  What altern
 
 ---
 
+# Formal Experimentation
 
 <div id="blurb">
 
-**Formal Experiments** -- ideas for experimenting with the structure and format of the conversation series itself.  E.g.: What forms of information exchange might best secure the privacy of participants?  How might we democratize the structure of the resultant archive, so that participants can use the material to curate new threads and narratives? 
+Ideas for experimenting with the structure and format of the conversation series itself.  E.g.: What forms of information exchange might best secure the privacy of participants?  How might we democratize the structure of the resultant archive, so that participants can use the material to curate new threads and narratives? 
 
 </div>
 
@@ -68,10 +71,11 @@ What would it mean to decolonize the internet? Water? Food? Energy?  What altern
 
 ---
 
+# 'In-Person' Experiments ... 
+
 <div id="blurb">
 
-**'In Situ' experiments** --
-
+Some of the experiments we might consider involve building and doing together, 'on the ground', in the same location: designing, prototyping, and testing attempts at a more convivial infrastructure. 
 </div>
 
 <div class="posts-area">
@@ -91,9 +95,11 @@ What would it mean to decolonize the internet? Water? Food? Energy?  What altern
 
 ---
 
+# Some Possible Conversation Topics and Partners
+
 <div id="blurb">
 
-**Subjects** -- entry points for conversation -- gesturing at individuals, organizations, open issues, sites of contention ...
+Entry points for conversation -- gesturing at individuals, organizations, open issues, sites of contention ...
 
 </div>
 

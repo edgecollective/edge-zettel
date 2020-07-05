@@ -159,7 +159,8 @@ a:visited{
 }
 
 .posts-area .post {
-flex: 0 1 auto;
+#flex: 0 1 auto;
+flex: 0 0 20%;
 box-sizing: border-box;
 padding: 10px;
 }
@@ -177,10 +178,10 @@ td {
     font-size:14;
 }
 
-/*
-@media (max-width: 1100px) {
-    .post {
-        width: 50%;
-    }
+@media (max-width: 1200px) {
+.posts-area .post {
+flex: 0 1 auto;
+box-sizing: border-box;
+padding: 10px;
 }
-*/
+}
