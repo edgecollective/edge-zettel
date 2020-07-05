@@ -57,7 +57,7 @@ background: MintCream;
 
 
 h1 {
-    line-height: 1em;
+    line-height: 120%;
     font-size:large;
     margin-bottom: .31em;
 }
@@ -149,7 +149,7 @@ a:visited{
 }
 
 .post .text {
-    min-height: 230px;
+    min-height: 280px;
     #text-align: center;
     padding: 3px;
 }
