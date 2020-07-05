@@ -3,8 +3,8 @@
 git add *
 git commit -m 'update'
 git push
-cp -r _site/* ../decolonize.github.io/
-cd ../decolonize.github.io/
+cp -r _site/* ../convivial-tech.github.io/
+cd ../convivial-tech.github.io/
 git add *	
 git commit -m 'update'
 git push
