@@ -21,7 +21,7 @@ What would it mean to decolonize the internet? Water? Food? Energy?  What altern
 
 ---
 
-# Provocoations
+# Provocations
 
 <div id="blurb">
 
@@ -95,11 +95,11 @@ Some of the experiments we might consider involve building and doing together, '
 
 ---
 
-# Some Possible Conversation Topics and Partners
+# Conversation Topics and Entry Points
 
 <div id="blurb">
 
-Entry points for conversation -- gesturing at individuals, organizations, open issues, sites of contention ...
+Some possible entry points and partners for conversation -- gesturing at subject matter, open questions, interested individuals, organizations ... sites of contention ... opportunities for collaboartion.
 
 </div>
 
