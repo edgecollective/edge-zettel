@@ -73,7 +73,7 @@ Ideas for experimenting with the structure and format of the conversation series
 
 ---
 
-# 'In-Person' Experiments ... 
+# 'In-Person' Experiments
 
 <div id="blurb">
 
@@ -97,7 +97,7 @@ Some of the experiments we might consider involve building and doing together, '
 
 ---
 
-# Conversation Topics and Entry Points
+# Conversation Topics
 
 <div id="blurb">
 
