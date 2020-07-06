@@ -17,13 +17,20 @@ Conversations on decolonizing technology.
 
 What would it mean to decolonize our vital infrastructure?  Water? Food? Energy? Communications?  What alternatives are there to the status quo that might be built soon -- or are being built already -- or could be recovered from the past? 
 
-<b>Convivial</b> is a series of investigations and conversations focused on the idea of <b>decolonizing technology</b> in an array of contexts; on the project of avoiding exploitation, regaining control and autonomy, and supporting more democratic, collaborative, cooperative approaches to infrastructure upon which all of us rely.
+<b>Convivial</b> is a proposed series of investigations and conversations around the idea of <b>decolonizing technology</b> in a a diverse array of contexts.  What exactly 'decolonization' means will likely vary significantly from person to person; our aim is to use it as a jumping off point for exploring topics like exploitation, control, autonomy, and the project of developing more democratic, collaborative, cooperative approaches to the technologies and infrastructure upon which we all rely for survival and for flourishing.
+
+This document is intended as a malleable set of inspirations for building out a set of experiments and dialogues.  As such, it is broken up into four parts:
+
+1. [Provocations and Guiding Questions](#provocations) -- these might serve as some initial prompts that could be somewhat common across conversation topics and conversation partners.  
+2. [Formal Experimentation](#formal) -- experiments in the form of the 'interviewing' process, including how the data is transmitted and stored, the modes in which the conversation occurs (asynchronously, written, video, audio, etc), and how various archived conversations are curated.
+3. ['In-Person' Experiments](#inperson) -- relevant experiments and projects in the 'physical world' that might support, inform, implement, or elaborate upon these investigations. 
+4. [Conversation Topics](#topics) -- initial ideas for conversation topics (by no means exhaustive of possible topics).
 
 </div>
 
 ---
 
-## Provocations
+## <a name="provocations">1. Provocations and Guiding Questions</a>
 
 <div id="blurb">
 
@@ -48,7 +55,7 @@ Some baseline queries and provocations to present to interlocutors that might se
 
 ---
 
-## Formal Experimentation
+## 2. <a name="formal">Formal Experimentation</a>
 
 <div id="blurb">
 
@@ -73,7 +80,7 @@ Ideas for experimenting with the structure and format of the conversation series
 
 ---
 
-## 'In-Person' Experiments
+## <a name="inperson">3. 'In-Person' Experiments</a>
 
 <div id="blurb">
 
@@ -97,7 +104,7 @@ Some of the experiments we might consider involve building and doing together, '
 
 ---
 
-## Conversation Topics
+## <a name="topics">4. Conversation Topics</a>
 
 <div id="blurb">
 
