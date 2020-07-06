@@ -19,13 +19,25 @@ What would it mean to decolonize our vital infrastructure?  Water? Food? Energy?
 
 <b>Convivial</b> is a proposed series of investigations and conversations around the idea of <b>decolonizing technology</b> in a a diverse array of contexts.  What exactly 'decolonization' means will likely vary significantly from person to person; our aim is to use it as a jumping off point for exploring topics like exploitation, control, autonomy, and the project of developing more democratic, collaborative, cooperative approaches to the technologies and infrastructure upon which we all rely for survival and for flourishing.
 
-This document is intended as a malleable set of inspirations for building out a set of experiments and dialogues.  As such, it is broken up into four parts:
+This document is intended as a malleable set of entry points for building out a set of experiments and dialogues.  As such, it is broken up into four parts:
 
 
 - <div id="highlight"> <a href="#provocations">Provocations & Guiding Questions for Conversation</a></div> -- these might serve as some initial prompts that could be somewhat common across conversation topics and conversation partners.  
 - <div id="highlight"> <a href="#formal">Experiments in Conversation Form & Process</a></div> -- experiments in the form and process of the conversation, including how the data is transmitted and stored, the modes in which the conversation occurs (asynchronously, written, video, audio, etc), and how various archived conversations are curated.
 - <div id="highlight"> <a href="#topics">Suggestions for Conversation Topics</a></div> -- initial ideas for conversation topics (by no means exhaustive of possible topics).
-- <div id="highlight"> <a href="#inperson">Field Research</a></div> -- relevant experiments and projects in the 'physical world' that might support, inform, implement, or elaborate upon these investigations. 
+- <div id="highlight"> <a href="#inperson">Field Research & Collaborative Infrastructure</a></div> -- relevant experiments and projects in the 'physical world' that might support, inform, implement, or elaborate upon these investigations. 
+
+For a quick audio overview of this structure, click to listen:
+
+<div class = 'audio-container'>
+
+<audio controls id="music">
+<source src="/audio/roar.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</div>
+
 
 </div>
 
@@ -81,7 +93,7 @@ Ideas for experimenting with the structure and format of the conversation series
 
 ---
 
-## <a name="topics">Conversation Topics</a>
+## <a name="topics">Suggestions for Conversation Topics</a>
 
 <div id="blurb">
 
@@ -106,7 +118,7 @@ Some possible entry points and partners for conversation -- gesturing at subject
 
 ---
 
-## <a name="inperson">3. On-the-ground Projects</a>
+## <a name="inperson">Field Research & Collaborative Infrastructure</a>
 
 <div id="blurb">
 
