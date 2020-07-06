@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <div id="title">
-<b>Convivial</b>: Conversations on the Decolonization of Technology
+<b>Convivial</b>: Conversations about the Decolonization of Technology
 </div>
 
 <!--
