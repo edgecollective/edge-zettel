@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <div id="title">
-<b>Convivial</b>: Conversations on Decolonizing Technology
+<b>Convivial</b>: Conversations on the Decolonization of Technology
 </div>
 
 <!--
@@ -15,7 +15,7 @@ Conversations on decolonizing technology.
 
 <div id="blurb">
 
-What would it mean to decolonize all aspects of our vital infrastructure today, or in the future?  Water? Food? Energy? Communications?  What alternatives are there to the status quo that might be built soon -- or are being built already -- or could be recovered from the past? 
+What would it mean to decolonize our vital infrastructure?  Water? Food? Energy? Communications?  What alternatives are there to the status quo that might be built soon -- or are being built already -- or could be recovered from the past? 
 
 <b>Convivial</b> is a series of investigations and conversations focused on the idea of <b>decolonizing technology</b> in an array of contexts; on the project of avoiding exploitation, regaining control and autonomy, and supporting more democratic, collaborative, cooperative approaches to infrastructure upon which all of us rely.
 
