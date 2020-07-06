@@ -23,7 +23,7 @@ What would it mean to decolonize our vital infrastructure?  Water? Food? Energy?
 
 ---
 
-# Provocations
+## Provocations
 
 <div id="blurb">
 
@@ -48,7 +48,7 @@ Some baseline queries and provocations to present to interlocutors that might se
 
 ---
 
-# Formal Experimentation
+## Formal Experimentation
 
 <div id="blurb">
 
@@ -73,7 +73,7 @@ Ideas for experimenting with the structure and format of the conversation series
 
 ---
 
-# 'In-Person' Experiments
+## 'In-Person' Experiments
 
 <div id="blurb">
 
@@ -97,7 +97,7 @@ Some of the experiments we might consider involve building and doing together, '
 
 ---
 
-# Conversation Topics
+## Conversation Topics
 
 <div id="blurb">
 
