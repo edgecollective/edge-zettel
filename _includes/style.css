@@ -55,6 +55,11 @@ line-height: 140%;
 background: MintCream;
 }
 
+#highlight {
+display: inline-block;
+background: WhiteSmoke;
+font-size: 20;
+}
 
 h1 {
     line-height: 120%;

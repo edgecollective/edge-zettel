@@ -21,16 +21,17 @@ What would it mean to decolonize our vital infrastructure?  Water? Food? Energy?
 
 This document is intended as a malleable set of inspirations for building out a set of experiments and dialogues.  As such, it is broken up into four parts:
 
-1. [Provocations and Guiding Questions](#provocations) -- these might serve as some initial prompts that could be somewhat common across conversation topics and conversation partners.  
-2. [Formal Experimentats](#formal) -- experiments in the form of the 'interviewing' process, including how the data is transmitted and stored, the modes in which the conversation occurs (asynchronously, written, video, audio, etc), and how various archived conversations are curated.
-3. ['In-Person' Experiments](#inperson) -- relevant experiments and projects in the 'physical world' that might support, inform, implement, or elaborate upon these investigations. 
-4. [Conversation Topics](#topics) -- initial ideas for conversation topics (by no means exhaustive of possible topics).
+
+- <div id="highlight"> <a href="#provocations">Provocations & Guiding Questions for Conversation</a></div> -- these might serve as some initial prompts that could be somewhat common across conversation topics and conversation partners.  
+- <div id="highlight"> <a href="#formal">Experiments in Conversation Form & Process</a></div> -- experiments in the form and process of the conversation, including how the data is transmitted and stored, the modes in which the conversation occurs (asynchronously, written, video, audio, etc), and how various archived conversations are curated.
+- <div id="highlight"> <a href="#topics">Suggestions for Conversation Topics</a></div> -- initial ideas for conversation topics (by no means exhaustive of possible topics).
+- <div id="highlight"> <a href="#inperson">Field Research</a></div> -- relevant experiments and projects in the 'physical world' that might support, inform, implement, or elaborate upon these investigations. 
 
 </div>
 
 ---
 
-## <a name="provocations">1. Provocations & Guiding Questions</a>
+## <a name="provocations">Provocations & Guiding Questions</a>
 
 <div id="blurb">
 
@@ -55,7 +56,7 @@ Some baseline queries and provocations to present to interlocutors that might se
 
 ---
 
-## 2. <a name="formal">Formal Experiments</a>
+## <a name="formal">Experiments in Form and Process</a>
 
 <div id="blurb">
 
@@ -80,31 +81,7 @@ Ideas for experimenting with the structure and format of the conversation series
 
 ---
 
-## <a name="inperson">3. 'In-Person' Experiments</a>
-
-<div id="blurb">
-
-Some of the experiments we might consider involve building and doing together, 'on the ground', in the same location: designing, prototyping, and testing attempts at a more convivial infrastructure. 
-</div>
-
-<div class="posts-area">
-{% for post in collections.sortedRealTag %}
-  <div class="post">
-    <div class="formal-contents">
-      <div class="text">
-<h3> {{ post.fileSlug }}.</h3>
-<br>
-<i>(IN-PERSON EXPERIMENTS)</i>
-        <p>{{ post.templateContent }}</p>
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
-
----
-
-## <a name="topics">4. Conversation Topics</a>
+## <a name="topics">Conversation Topics</a>
 
 <div id="blurb">
 
@@ -120,6 +97,30 @@ Some possible entry points and partners for conversation -- gesturing at subject
 <h3> {{ post.fileSlug }}.</h3>
 <br>
 <i>(CONVERSATION TOPICS)</i>
+        <p>{{ post.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+---
+
+## <a name="inperson">3. On-the-ground Projects</a>
+
+<div id="blurb">
+
+Some of the experiments we might consider involve building and doing together, 'on the ground', in the same location: designing, prototyping, and testing attempts at a more convivial infrastructure. 
+</div>
+
+<div class="posts-area">
+{% for post in collections.sortedRealTag %}
+  <div class="post">
+    <div class="formal-contents">
+      <div class="text">
+<h3> {{ post.fileSlug }}.</h3>
+<br>
+<i>(FIELD RESEARCH)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
