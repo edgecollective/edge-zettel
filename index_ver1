@@ -1,0 +1,171 @@
+---
+layout: front.njk
+eleventyExcludeFromCollections: true
+---
+
+<div id="title">
+<b>Convivial</b>: Conversations about the Decolonization of Technology
+</div>
+
+<!--
+<div id="subtitle">
+Conversations on decolonizing technology.
+</div>
+-->
+
+<div id="blurb">
+
+<!--
+<div class = 'audio-container'>
+
+<audio controls id="music">
+<source src="/audio/roar.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</div>
+-->
+
+<div id="excerpt">
+
+<audio controls id="music">
+<source src="/audio/roar.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</div>
+
+<div id="excerpt">
+
+
+<!--What would it mean to <span id="punch">collectively decolonize </span> our vital infrastructure?-->
+
+What would it mean to collectively decolonize our vital infrastructure?
+
+Our food systems? Energy systems? Water? Housing? Communications?
+
+What useful designs might we recover from the past, or learn from one another?
+
+What alternatives are being built right now?
+
+</div>
+
+<span id="punch">Convivial</span> is a proposed conversation series around the idea of collectively decolonizing our technology.  What, more precisely, does 'decolonization' mean? This question will likely remain a live issue -- perhaps even a point of contention -- throughout the series; the answers we receive will depend on the interlocutor, the context, and the moment. Our aim is to deploy this concept as a useful jumping-off point for discussions of exploitation, control, autonomy, and the project of developing more democratic, collaborative, cooperative approaches to the technologies and infrastructure upon which we all rely for survival and for flourishing. We expect and hope that different, even more useful formulations and strategies will emerge out of conversations themselves.
+
+This document is intended as a malleable set of entry points for building out a set of experiments and dialogues. It contains:
+
+<!--
+
+- <div id="highlight"> <a href="#provocations">Provocations & Guiding Questions for Conversation</a></div> -- these might serve as some initial prompts that could be somewhat common across conversation topics and conversation partners.  
+- <div id="highlight"> <a href="#formal">Experiments in Conversation Form & Process</a></div> -- experiments in the form and process of the conversation, including how the data is transmitted and stored, the modes in which the conversation occurs (asynchronously, written, video, audio, etc), and how various archived conversations are curated.
+- <div id="highlight"> <a href="#topics">Suggestions for Conversation Topics</a></div> -- initial ideas for conversation topics (by no means exhaustive of possible topics).
+- <div id="highlight"> <a href="#inperson">Field Research & Collaborative Infrastructure</a></div> -- relevant experiments and projects in the 'physical world' that might support, inform, implement, or elaborate upon these investigations. 
+
+-->
+
+- <div id="highlight"> <a href="#provocations">Provocations & Guiding Questions</a></div> for the conversations.
+- <div id="highlight"> <a href="#formal">Experiments in Form & Process</a></div> that explore alternative approaches to conductiving interviews, archiving, and sharing conversation data. Federated platforms; peer-to-peer filesharing; asynchronous Q&A, etc.
+- <div id="highlight"> <a href="#topics">Conversation Topics</a></div> that might serve as starting points for the series.
+- <div id="highlight"> <a href="#inperson">Field Research & Collaborative Infrastructure Projects</a></div> that implement or explore ideas or themes emerging from the conversations. Projects <i>in situ</i>, on-the-ground.
+
+
+</div>
+
+---
+
+## <a name="provocations">Provocations & Guiding Questions</a>
+
+<div id="blurb">
+
+Some baseline queries and provocations to present to interlocutors that might serve as useful starting points in various conversations about decolonizing technology. 
+
+</div>
+
+<div class="posts-area">
+{% for post in collections.sortedQuestionsTag %}
+  <div class="post">
+    <div class="formal-contents">
+      <div class="text">
+<h3> {{ post.fileSlug }}.</h3>
+<br>
+<i>(PROVOCATIONS)</i>
+        <p>{{ post.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+---
+
+## <a name="formal">Experiments in Form and Process</a>
+
+<div id="blurb">
+
+Ideas for experimenting with the structure and format of the conversation series itself.  E.g.: What forms of information exchange might best secure the privacy of participants?  How might we democratize the structure of the resultant archive, so that participants can use the material to curate new threads and narratives? 
+
+</div>
+
+<div class="posts-area">
+{% for post in collections.sortedFormalTag %}
+  <div class="post">
+    <div class="formal-contents"> 
+      <div class="text">
+<h3> {{ post.fileSlug }}.</h3>
+<br>
+<i>(FORMAL EXPERIMENTS)</i>
+        <p>{{ post.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+---
+
+## <a name="topics">Suggestions for Conversation Topics</a>
+
+<div id="blurb">
+
+Some possible entry points and partners for conversation -- gesturing at subject matter, open questions, interested individuals, organizations ... sites of contention ... opportunities for collaboartion.
+
+</div>
+
+<div class="posts-area">
+{% for post in collections.sortedPostsTag %}
+  <div class="post">
+    <div class="post-contents">
+      <div class="text">
+<h3> {{ post.fileSlug }}.</h3>
+<br>
+<i>(CONVERSATION TOPICS)</i>
+        <p>{{ post.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+---
+
+## <a name="inperson">Field Research & Collaborative Infrastructure</a>
+
+<div id="blurb">
+
+Some of the experiments we might consider involve building and doing together, 'on the ground', in the same location: designing, prototyping, and testing attempts at a more convivial infrastructure. 
+</div>
+
+<div class="posts-area">
+{% for post in collections.sortedRealTag %}
+  <div class="post">
+    <div class="formal-contents">
+      <div class="text">
+<h3> {{ post.fileSlug }}.</h3>
+<br>
+<i>(FIELD RESEARCH)</i>
+        <p>{{ post.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
