@@ -38,7 +38,7 @@ Some baseline queries and provocations to present to interlocutors that might se
       <div class="text">
 <h3> {{ post.fileSlug }}.</h3>
 <br>
-<i>(GUIDING QUESTIONS)</i>
+<i>(PROVOCATIONS)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
@@ -63,7 +63,7 @@ Ideas for experimenting with the structure and format of the conversation series
       <div class="text">
 <h3> {{ post.fileSlug }}.</h3>
 <br>
-<i>(FORMAL EXPERIMENTS)</i>
+<i>(FORMAL EXPERIMENTATION)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
@@ -87,7 +87,7 @@ Some of the experiments we might consider involve building and doing together, '
       <div class="text">
 <h3> {{ post.fileSlug }}.</h3>
 <br>
-<i>(IN SITU EXPERIMENTS)</i>
+<i>(IN-PERSON EXPERIMENTS)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
@@ -112,7 +112,7 @@ Some possible entry points and partners for conversation -- gesturing at subject
       <div class="text">
 <h3> {{ post.fileSlug }}.</h3>
 <br>
-<i>(SUBJECTS)</i>
+<i>(CONVERSATION TOPICS)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
