@@ -1,0 +1,308 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200706.184222.7750.0.001.json",
+    "dumpEventTime": "2020-07-06T18:42:22Z",
+    "dumpEventTimeStamp": "1594075342375",
+    "processId": 7750,
+    "cwd": "/home/dwblair/gitwork/zettel",
+    "commandLine": [
+      "node",
+      "/home/dwblair/.nvm/versions/node/v11.15.0/bin/eleventy",
+      "--serve"
+    ],
+    "nodejsVersion": "v11.15.0",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.12",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "11.15.0",
+      "v8": "7.0.276.38-node.19",
+      "uv": "1.27.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "67",
+      "nghttp2": "1.37.0",
+      "napi": "4",
+      "llhttp": "1.1.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "34.0",
+      "icu": "63.1",
+      "tz": "2018e",
+      "unicode": "11.0"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v11.15.0/node-v11.15.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.3.0-62-generic",
+    "osVersion": "#56~18.04.1-Ubuntu SMP Wed Jun 24 16:17:03 UTC 2020",
+    "osMachine": "x86_64",
+    "host": "dwb-x240"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000a702fd",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [node]"
+    },
+    {
+      "pc": "0x000000000095ccb3",
+      "symbol": "node::OnFatalError(char const*, char const*) [node]"
+    },
+    {
+      "pc": "0x0000000000b3dbde",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000b3de14",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [node]"
+    },
+    {
+      "pc": "0x0000000000f3ce52",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000f3cf58",
+      "symbol": "v8::internal::Heap::CheckIneffectiveMarkCompact(unsigned long, double) [node]"
+    },
+    {
+      "pc": "0x0000000000f49678",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000f4a18b",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [node]"
+    },
+    {
+      "pc": "0x0000000000f4cec1",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationSpace, v8::internal::AllocationAlignment) [node]"
+    },
+    {
+      "pc": "0x0000000000f16175",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x0000000000f1d96a",
+      "symbol": "v8::internal::Factory::NewRawOneByteString(int, v8::internal::PretenureFlag) [node]"
+    },
+    {
+      "pc": "0x000000000106ae35",
+      "symbol": "v8::internal::String::SlowFlatten(v8::internal::Isolate*, v8::internal::Handle<v8::internal::ConsString>, v8::internal::PretenureFlag) [node]"
+    },
+    {
+      "pc": "0x000000000121f951",
+      "symbol": "v8::internal::Runtime_StringCharCodeAt(int, v8::internal::Object**, v8::internal::Isolate*) [node]"
+    },
+    {
+      "pc": "0x0000076b0e64fc5d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1495064576,
+    "totalCommittedMemory": 1492379904,
+    "usedMemory": 1455257392,
+    "availableMemory": 37889472,
+    "memoryLimit": 1526909922,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 42224,
+        "capacity": 515584,
+        "used": 33520,
+        "available": 482064
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1320960,
+        "capacity": 1031168,
+        "used": 255024,
+        "available": 776144
+      },
+      "old_space": {
+        "memorySize": 1480790016,
+        "committedMemory": 1480395360,
+        "capacity": 1452199480,
+        "used": 1447221592,
+        "available": 4977888
+      },
+      "code_space": {
+        "memorySize": 3670016,
+        "committedMemory": 3088000,
+        "capacity": 2758656,
+        "used": 2758656,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2633728,
+        "committedMemory": 2183984,
+        "capacity": 1022400,
+        "used": 1022400,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 5349376,
+        "committedMemory": 5349376,
+        "capacity": 35619576,
+        "used": 3966200,
+        "available": 31653376
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 300.482,
+    "kernelCpuSeconds": 30.2664,
+    "cpuConsumptionPercent": 9.89671,
+    "maxRss": 2234761216,
+    "pageFaults": {
+      "IORequired": 10,
+      "IONotRequired": 2626543
+    },
+    "fsActivity": {
+      "reads": 22592,
+      "writes": 134976
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 160.802,
+    "kernelCpuSeconds": 8.92921,
+    "cpuConsumptionPercent": 5.07874,
+    "fsActivity": {
+      "reads": 22592,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "NVM_DIR": "/home/dwblair/.nvm",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "XDG_MENU_PREFIX": "xfce-",
+    "KIGITHUB": "https://github.com/KiCad",
+    "_": "/home/dwblair/.nvm/versions/node/v11.15.0/bin/eleventy",
+    "LANG": "en_US.UTF-8",
+    "GDM_LANG": "en_US",
+    "DISPLAY": ":0.0",
+    "OLDPWD": "/home/dwblair/gitwork",
+    "GTK_OVERLAY_SCROLLING": "0",
+    "COLORTERM": "truecolor",
+    "NVM_CD_FLAGS": "",
+    "XDG_VTNR": "7",
+    "KICAD_PATH": "/usr/share/kicad",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "MANDATORY_PATH": "/usr/share/gconf/xubuntu.mandatory.path",
+    "GLADE_CATALOG_PATH": ":",
+    "XDG_SESSION_ID": "c2",
+    "XDG_GREETER_DATA_DIR": "/var/lib/lightdm-data/dwblair",
+    "USER": "dwblair",
+    "GLADE_MODULE_PATH": ":",
+    "DESKTOP_SESSION": "xubuntu",
+    "DEFAULTS_PATH": "/usr/share/gconf/xubuntu.default.path",
+    "QT_QPA_PLATFORMTHEME": "gtk2",
+    "PWD": "/home/dwblair/gitwork/zettel",
+    "HOME": "/home/dwblair",
+    "SSH_AGENT_PID": "1202",
+    "QT_ACCESSIBILITY": "1",
+    "XDG_SESSION_TYPE": "x11",
+    "XDG_DATA_DIRS": "/usr/share/xfce4:/usr/share/xubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share",
+    "XDG_SESSION_DESKTOP": "xubuntu",
+    "GLADE_PIXMAP_PATH": ":",
+    "CLUTTER_BACKEND": "x11",
+    "TERM": "xterm-256color",
+    "VTE_VERSION": "5202",
+    "SHELL": "/bin/bash",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "NVM_BIN": "/home/dwblair/.nvm/versions/node/v11.15.0/bin",
+    "XDG_CURRENT_DESKTOP": "XFCE",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "SHLVL": "2",
+    "XDG_SEAT": "seat0",
+    "LANGUAGE": "en_US",
+    "WINDOWID": "69206019",
+    "GDMSESSION": "xubuntu",
+    "LOGNAME": "dwblair",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XAUTHORITY": "/home/dwblair/.Xauthority",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg",
+    "PATH": "/home/dwblair/.nvm/versions/node/v11.15.0/bin:/home/dwblair/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "SESSION_MANAGER": "local/dwb-x240:@/tmp/.ICE-unix/1220,unix/dwb-x240:/tmp/.ICE-unix/1220",
+    "LESSOPEN": "| /usr/bin/lesspipe %s"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 16777216,
+      "hard": 16777216
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 30421,
+      "hard": 30421
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/lib/x86_64-linux-gnu/librt.so.1",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2"
+  ]
+}
