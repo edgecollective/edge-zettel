@@ -7,19 +7,17 @@ eleventyExcludeFromCollections: true
 <b>Convivial</b>: Conversations about the Decolonization of Technology
 </div>
 
-<!--
 <div id="excerpt">
 
-For a brief <span id="punch">audio overview </span> of this proposal, click here:
+For an <span id="punch">audio overview</span> of this proposal, click here:
 
 <audio controls id="music">
-<source src="/audio/roar.mp3" type="audio/mpeg">
+<source src="/audio/convivial.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
 </div>
 
--->
 
 <div id="blurb">
 
