@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
 For an <span id="punch">audio overview</span> of this proposal, click here:
 
 <audio controls id="music">
-<source src="/audio/convivial2.mp3" type="audio/mpeg">
+<source src="/audio/convivial3.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
