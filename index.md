@@ -7,6 +7,7 @@ eleventyExcludeFromCollections: true
 <b>Convivial</b>: Conversations about the Decolonization of Technology
 </div>
 
+<!--
 <div id="excerpt">
 
 For an <span id="punch">audio overview</span> of this proposal, click here:
@@ -17,7 +18,7 @@ Your browser does not support the audio element.
 </audio>
 
 </div>
-
+-->
 
 <div id="blurb">
 
