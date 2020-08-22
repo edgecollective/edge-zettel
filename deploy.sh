@@ -3,8 +3,8 @@
 git add *
 git commit -m 'update'
 git push
-cp -r _site/* ../convivial-tech.github.io/
-cd ../convivial-tech.github.io/
+cp -r _site/* ../topics/
+cd ../topics/
 git add *	
 git commit -m 'update'
 git push
