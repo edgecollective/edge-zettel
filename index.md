@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <div id="title">
-<b>Convivial</b>: Conversations about the Decolonization of Technology
+<b>Edge Collective</b>: Topics
 </div>
 
 <!--
@@ -20,6 +20,7 @@ Your browser does not support the audio element.
 </div>
 -->
 
+<!--
 <div id="blurb">
 
 <span id="punch">What would it mean to decolonize our vital infrastructure? </span>Our food systems? Energy systems? Water? Housing? Communications? Medicine? What useful designs might we recover from the past, or learn from one another? What alternatives are being built right now? How might we collectively develop a vision for the infrastructure of decolonized future?
@@ -34,23 +35,26 @@ Your browser does not support the audio element.
 </div>
 
 ---
+-->
 
-## <a name="provocations">Provocations & Guiding Questions</a>
+---
+
+## <a name="inperson">Research Projects</a>
 
 <div id="blurb">
 
-Some baseline queries and provocations to present to interlocutors that might serve as useful starting points in various conversations about decolonizing technology. 
+Research projects and field work.
 
 </div>
 
 <div class="posts-area">
-{% for post in collections.sortedQuestionsTag %}
+{% for post in collections.sortedRealTag %}
   <div class="post">
     <div class="formal-contents">
       <div class="text">
 <h3> {{ post.fileSlug }}.</h3>
 <br>
-<i>(PROVOCATIONS)</i>
+<i>(FIELD RESEARCH)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
@@ -60,36 +64,11 @@ Some baseline queries and provocations to present to interlocutors that might se
 
 ---
 
-## <a name="formal">Experiments in Form and Process</a>
+## <a name="topics">Conversations and Peer Learning</a>
 
 <div id="blurb">
 
-Ideas for experimenting with the structure and format of the conversation series itself.  E.g.: What forms of information exchange might best secure the privacy of participants?  How might we democratize the structure of the resultant archive, so that participants can use the material to curate new threads and narratives? 
-
-</div>
-
-<div class="posts-area">
-{% for post in collections.sortedFormalTag %}
-  <div class="post">
-    <div class="formal-contents"> 
-      <div class="text">
-<h3> {{ post.fileSlug }}.</h3>
-<br>
-<i>(FORMAL EXPERIMENTS)</i>
-        <p>{{ post.templateContent }}</p>
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
-
----
-
-## <a name="topics">Suggestions for Conversation Topics</a>
-
-<div id="blurb">
-
-Some possible entry points and partners for conversation -- gesturing at subject matter, open questions, interested individuals, organizations ... sites of contention ... opportunities for collaboartion.
+Ideas for interviews / podcast episodes.
 
 </div>
 
@@ -110,24 +89,52 @@ Some possible entry points and partners for conversation -- gesturing at subject
 
 ---
 
-## <a name="inperson">Field Research & Collaborative Infrastructure</a>
+## <a name="provocations">Philosophy & Provocations </a>
 
 <div id="blurb">
 
-Some of the experiments we might consider involve building and doing together, 'on the ground', in the same location: designing, prototyping, and testing attempts at a more convivial infrastructure. 
+Some higher-level issues to consider ...
+
 </div>
 
 <div class="posts-area">
-{% for post in collections.sortedRealTag %}
+{% for post in collections.sortedQuestionsTag %}
   <div class="post">
     <div class="formal-contents">
       <div class="text">
 <h3> {{ post.fileSlug }}.</h3>
 <br>
-<i>(FIELD RESEARCH)</i>
+<i>(PROVOCATIONS)</i>
         <p>{{ post.templateContent }}</p>
       </div>
     </div>
   </div>
 {% endfor %}
 </div>
+
+---
+
+## <a name="formal">Communication & Collaboration Infrastructure</a>
+
+<div id="blurb">
+
+Ideas for experimenting with the structure and format of digital collaboration and communication. E.g.: What forms of information exchange might best secure the privacy of participants?  How might we democratize the structure of the resultant archive, so that participants can use the material to curate new threads and narratives? 
+
+</div>
+
+<div class="posts-area">
+{% for post in collections.sortedFormalTag %}
+  <div class="post">
+    <div class="formal-contents"> 
+      <div class="text">
+<h3> {{ post.fileSlug }}.</h3>
+<br>
+<i>(FORMAL EXPERIMENTS)</i>
+        <p>{{ post.templateContent }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+---
